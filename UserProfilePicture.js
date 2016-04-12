@@ -1,6 +1,6 @@
 var UserProfilePictureComponent = (function($) {
     var scope = {}, defaultPic, ele;
-    var template = ['<div id="profileUser">', '<div class="userDetails">', '<span class="userWelcome">Olá,', '</span>', '<span class="userName">', '{{name}}', '</span>', '</div>', '<div class="userPic {{classe}}">', '<img id="ProfileImage" data-ng-src="{{img}}" alt="{{alt}}" />', '</div>', '</div>']
+    var template = ['<div id="profileUser">', '<div class="userDetails">', '<span class="userWelcome">Olá,', '</span>', '<span class="userName">', '{{name}}', '</span>', '</div>', '<div class="userPic {{classe}}">', '<img id="ProfileImage" src="{{img}}" alt="{{alt}}" />', '</div>', '</div>']
     function SharePointGetUser(userID) {
         var deferred = $.Deferred();
         SP.SOD.executeFunc('sp.js', 'SP.ClientContext', function() {
