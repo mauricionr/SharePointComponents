@@ -57,7 +57,7 @@ var UserProfilePictureComponent = (function($) {
          * @callbackPic imagem para callback caso usuario nao tenha imagem
          */
         ele = element;
-        defaultPic = callbackPic || "/Style%20Library/cteep/images/PersonPlaceholder.png";
+        defaultPic = callbackPic || "/Style%20Library/images/PersonPlaceholder.png";
         SharePointGetUser(_spPageContextInfo.userId)
             .then(successCallback)
             .then(render)
@@ -65,4 +65,4 @@ var UserProfilePictureComponent = (function($) {
     };
 })($);
 
-_spBodyOnLoadFunctionNames.push("UserProfilePictureComponent.bind(null, '#holdHead', '/Style Library/cteep/images/PersonPlaceholder.png'')");
+_spBodyOnLoadFunctionNames.push("UserProfilePictureComponent.bind(null, '#holdHead', '/Style Library/images/PersonPlaceholder.png'')");
