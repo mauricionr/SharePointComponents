@@ -1,0 +1,30 @@
+{
+  "name": "sharepoint-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricionr/SharePointComponents.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "Jquery",
+    "Angualr",
+    "Moment",
+    "React"
+  ],
+  "author": "Mauricio <mauricioskateboard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauricionr/SharePointComponents/issues"
+  },
+  "homepage": "https://github.com/mauricionr/SharePointComponents#readme",
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.6",
+    "nodemon": "^1.9.1"
+  }
+}
